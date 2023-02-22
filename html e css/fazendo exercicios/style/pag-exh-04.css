@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+h1#aviso {
+    /* cor */  color: #d09ad4; text-shadow: 0em 0em 0.25em #7e3783;
+    /* tam */  text-align: center; margin-top: 5em; font-size: 2.5em;}

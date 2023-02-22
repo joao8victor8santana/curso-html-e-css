@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body { background-color: #1e1e1e; font-family: Arial, Helvetica, sans-serif; }
+mark { background-color: #1e1e1e; color: #d09ad4; }
+
+
+
+
+/* menu superior */
+div#mensup {
+  /* cor */  background-image: linear-gradient(90deg, #070707 64%, #5e3660 100%); box-shadow: 0em 0em 1em #000000;
+  /* tam */  margin-top: -1em; height: auto; margin-left: -0.5em; margin-right: -0.5em;
+  white-space: nowrap; }
+
+/* botão voltar */
+mark#voltar {
+  /* cor */  background-image: linear-gradient(90deg, #070707 40%,#1e1e1e); box-shadow: 0em 0em 0.5em #000000;
+  /* tam */  border-radius: 0.5em;
+  font-family: 'Courier New', Courier, monospace; }
+ins#iden { color: #d09ad4; text-shadow: 0em 0em 0.25em #7e3783; margin-left: 1.5em; }
+ins#voltar, a#voltar { color: #f5f5f5 }
+h1#voltar { padding: 0.5em; margin-left: 1em; font-size: 1.5em; }
+
+
+
+
+/* corpo */
+main {
+  /* cor */  background-color: #f5f5f5; box-shadow: 0em 0em 2.5em #000000;
+  /* tam */  width: 80%; padding: 1em; margin: auto; border-radius: 1em; }
+h1#titu {
+  /* cor */ color: #d09ad4; text-shadow: 0em 0em 0.25em #7e3783;
+  /* tam */ margin-left: 17.5%; margin-top: 2em; }
+
+
+
+
+/* menu inferior */
+div#mensub {
+  /* cor */  background-image: linear-gradient(90deg, #070707 64%, #5e3660 100%); box-shadow: 0em 0em 1em #000000;
+  /* tam */  margin-top: 1em; margin-bottom: -0.5em ; height: auto; margin-left: -0.5em; margin-right: -0.5em; text-align: center; }
+mark#menneg { background-color: #5d455f; } a#menneg { color: #5d455f; } a, abbr { color: #1e1e1e; }
+div#trocatroca { padding: 0.5em ;font-size: 1.25em } mark#mensub { font-size: 0.70em; padding: 0.1em; margin-bottom: 2em; }
+
+div#trocatroca > a:hover { border: 0.5em; color: #d09ad4; }
+div#trocatroca > mark, abbr, a { text-shadow: 0em 0em 0.25em #d09ad4; }
+
+div#trocatroca > mark { font-family: 'Crimson Text', serif; }

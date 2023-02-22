@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body { background-color: #00361B;}
+
+
+
+
+/* corpo */
+main {
+  /* cor */  background-color: #b6f9a7; box-shadow: 0em 0em 2.5em #00994D;}
+h1#titu {
+  /* cor */ color: #00FF80; text-shadow: 0em 0em 0.25em #00994D;}
+
+
+
+
+h2 { color: #00361B; text-shadow: 0em 0em 0.25em #00361B; }
+p { color: #00361B;; }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="conteudo/favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+    <link rel="stylesheet" href="style/pag-exh.css">
+  <style>
+    .mar { width: 35em; height: 20em; }
+    div.vid { color: whitesmoke; background-color: black; width: 38em; border-radius: 1em; text-align: center; }
+    p { padding: 0.25em; }
+   </style>
+</head>
+<body>
+
+  <div id="mensup">
+    <h1 id="voltar">
+      <mark id="voltar">&emsp;<ins id="voltar"><a id="voltar" href="../../../central/html-modulos.html">voltar</a>&emsp;</ins></mark><ins id="voltar">&emsp;</ins>
+      <ins id="iden">módulo 1</ins><ins id="iden">exercício 12.2&emsp;</ins>
+    </h1>
+  </div>
+
+  <div id="titu">
+      <h1 id="titu">Inserindo Videos do YouTube.</h1>
+
+    <main>
+    <div class="vid">
+      <p>Este vídeo está hospedado no meu próprio servidor.</p>
+      <video class="mar" loop poster="conteudo/waifu-mar.jpg" controls autoplay preload="metadata">
+        <source src="conteudo/mar.mp4" type="video/mp4">
+        <p>O seu navegador não é compatível com nenhum de nossos tipos de mídia.</p>
+      </video>
+    </div>
+
+    <div class="vid">
+      <p>Este vídeo está hospedado no servidor do YouTube.</p>
+      <iframe class="mar" src="https://www.youtube.com/embed/_05or04sGAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </main>
+  </div>
+
+</body>
+</html>
