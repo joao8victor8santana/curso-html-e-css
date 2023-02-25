@@ -22,6 +22,7 @@ header#mensup {
   height: 3.5em;
 }
 header#mensup a {
+  text-decoration: none;
   position: absolute;
   display: inline-block;
   height: auto; 
@@ -47,7 +48,7 @@ header#mensup a:hover {
 header#mensup p {
   transition-duration: 0.5s;
   text-align: right;
-  font-size: 3vw;
+  font-size: 2.5vw;
   position: absolute;
   padding: 1.15em 2.5em 1.15em 0em;
   display: inline-block;
@@ -102,7 +103,7 @@ footer#mensub {
 }
 nav#trocatroca { padding: 0.25em; font-size: 1.5em; line-height: 1.5em; transition-duration: 0.25s; }
 nav#trocatroca mark{ transition-duration: 0.5s; background-color: #1e1e1e; color: #d09ad4; }
-footer#mensub abbr,a { text-decoration: none; color: #000000; }
+footer#mensub abbr, footer#mensub a { text-decoration: none; color: #000000; }
 a#opa1 mark { font-size: 0.675em; padding: 0.16em 0.32em 0.12em 0.32em; }
 a#opa2 mark { font-size: 0.75em; padding: 0.065em 0.175em 0.048em 0.175em; }
 
