@@ -26,16 +26,21 @@ header#mensup a {
   display: inline-block;
   height: auto; 
   transition-duration: 0.5s;
-  background-color: #1e1e1e;
+  background-color: #121212;
   font-size: 1.5em;
   display: inline-block;
-  padding: 0.60em 2.02em;
+  padding: 0.40em 1.92em;
+  margin-left: 0.2em;
   color: #d09ad4;
+
+  transform: translate( 0%, -50% );
+  left: 0%;
+  top: 50%;
 }
 header#mensup a:hover {
   background-color: #2b112d;
   text-shadow: 0em 0em 0.25em #d09ad4;
-  padding: 0.56em 2em;
+  padding: 0.41em 1.87em;
   border: 0.01em solid #d09ad4;
   color: #d09ad4;
 }
@@ -98,8 +103,8 @@ footer#mensub {
 nav#trocatroca { padding: 0.25em; font-size: 1.5em; line-height: 1.5em; transition-duration: 0.25s; }
 nav#trocatroca mark{ transition-duration: 0.5s; background-color: #1e1e1e; color: #d09ad4; }
 footer#mensub abbr,a { text-decoration: none; color: #000000; }
-a.opa1 mark { font-size: 0.675em; padding: 0.16em 0.32em 0.12em 0.32em; }
-a.opa2 mark { font-size: 0.75em; padding: 0.065em 0.175em 0.048em 0.175em; }
+a#opa1 mark { font-size: 0.675em; padding: 0.16em 0.32em 0.12em 0.32em; }
+a#opa2 mark { font-size: 0.75em; padding: 0.065em 0.175em 0.048em 0.175em; }
 
 
 footer#mensub mark:hover {
