@@ -8,24 +8,22 @@
     <title>Trabalhando com links</title>
     <link rel="stylesheet" href="style/pag-exh.css">
   <style>
-    .bpb { width: 35em; border-radius: 1em; }
-    div.img { color: whitesmoke; background-color: black; width: 38em; border-radius: 1em; text-align: center; padding-bottom: 1em;}
-    li { padding: 0.25em; }
-  </style>
+  ul { list-style-position: inside; }
+  .bpb { display: block; width: 70%; border-radius: 1em; margin: auto; }
+</style>
 </head>
 <body>
 
-  <div id="mensup">
-    <h1 id="voltar">
-      <mark id="voltar">&emsp;<ins id="voltar"><a id="voltar" href="../../../central/html-modulos.html">voltar</a>&emsp;</ins></mark><ins id="voltar">&emsp;</ins>
-      <ins id="iden">módulo 1</ins><ins id="iden">exercício 10.3&emsp;</ins>
-    </h1>
-  </div>
 
-  <div id="titu">
-    <h1 id="titu">Usando Links pra download</h1>
+  <header id="mensup">
+    <a href="../../../central/html-modulos.html">voltar</a>
+    <p>Exercício 10.3 do curso de HTML5 e CSS3</p>
+  </header>
+
 
   <main>
+    <h1 id="titu">Usando Links pra download</h1>
+  <article id="ex">
     <h2>Usando Links Externos</h2>
     <p>Você pode acessar o meu mangá favorito:</p>
     <ul>
@@ -46,21 +44,19 @@
 
     <h2>Links para download</h2>
     <p>Você pode fazer download de varios tipos de mídias</p>
-    <div class="img">
     <ul>
-      <li><a href="conteudo/blue-pearl-braba.png">Blue Pearl Braba</a></li>
+      <li><a href="conteudo/wallpaper005.jpg">Wallpaper 05</a></li>
     </ul>
-      <img class="bpb" src="conteudo/blue-pearl-braba.png" alt="">
-    </div>
+      <img class="bpb" src="conteudo/wallpaper005.jpg" alt="">
 
-    <div class="img">
+
     <ul>
-      <li><a href="conteudo/yellow pearl.png" download="yellow pearl.png" type="image/png" >Yellow Pearl</a></li>
+      <li><a href="conteudo/wallpaper006.jpg" download="yellow pearl.png" type="image/png" >Wallpaper 06</a></li>
     </ul>
-      <img class="bpb" src="conteudo/yellow pearl.png" alt="">
-    </div>
+      <img class="bpb" src="conteudo/wallpaper006.jpg" alt="">
+  </article>
   </main>
-  </div>
+
 
 </body>
 </html>

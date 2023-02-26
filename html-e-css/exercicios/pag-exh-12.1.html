@@ -7,34 +7,32 @@
     <link rel="shortcut icon" href="conteudo/favicon.ico" type="image/x-icon">
     <title>Vídeos com HTML5</title>
     <link rel="stylesheet" href="style/pag-exh.css">
-    <style>
-      .mar { width: 35em; height: 20em; }
-      div.vid { color: whitesmoke; background-color: black; width: 38em; border-radius: 1em; text-align: center; }
-      p { padding: 0.25em; }
-     </style>
+  <style>
+  .mar { display: block; width: 80%; border-radius: 1em; }
+  </style>
 </head>
 <body>
 
-  <div id="mensup">
-    <h1 id="voltar">
-      <mark id="voltar">&emsp;<ins id="voltar"><a id="voltar" href="../../../central/html-modulos.html">voltar</a>&emsp;</ins></mark><ins id="voltar">&emsp;</ins>
-      <ins id="iden">módulo 1</ins><ins id="iden">exercício 12.1&emsp;</ins>
-    </h1>
-  </div>
 
-  <div id="titu">
+  <header id="mensup">
+    <a href="../../../central/html-modulos.html">voltar</a>
+    <p>Exercício 12.1 do curso de HTML5 e CSS3</p>
+  </header>
+
+
+
+
+  <main>
     <h1 id="titu">Inserindo Vídeos Hospedados Localmente.</h1>
+  <article id="ex">
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video class="mar" loop poster="conteudo/mar.jpg" controls autoplay preload="metadata">
+      <source src="conteudo/mar.mp4" type="video/mp4">
+      <p>O seu navegador não é compatível com nenhum de nossos tipos de mídia.</p>
+    </video>
+  </article>
+  </main>
 
-    <main>
-    <div class="vid">
-      <p>Este vídeo está hospedado no meu próprio servidor.</p>
-      <video class="mar" loop poster="conteudo/waifu-mar.jpg" controls autoplay preload="metadata">
-        <source src="conteudo/mar.mp4" type="video/mp4">
-        <p>O seu navegador não é compatível com nenhum de nossos tipos de mídia.</p>
-      </video>
-    </div>
-    </main>
-  </div>
 
 </body>
 </html>

@@ -7,21 +7,21 @@
     <link rel="shortcut icon" href="conteudo/favicon.ico" type="image/x-icon">
     <title>Listas</title>
     <link rel="stylesheet" href="style/pag-exh.css">
-    <style> dt { text-indent: 2em; } </style>
+  <style>
+    ol, ul, dl { list-style-position: inside; }
+  </style>
 </head>
 <body>
 
-  <div id="mensup">
-    <h1 id="voltar">
-      <mark id="voltar">&emsp;<ins id="voltar"><a id="voltar" href="../../../central/html-modulos.html">voltar</a>&emsp;</ins></mark><ins id="voltar">&emsp;</ins>
-      <ins id="iden">módulo 1</ins><ins id="iden">exercício 09.2&emsp;</ins>
-    </h1>
-  </div>
+  <header id="mensup">
+    <a href="../../../central/html-modulos.html">voltar</a>
+    <p>Exercício 09.2 do curso de HTML5 e CSS3</p>
+  </header>
 
-  <div id="titu">
-    <h1 id="titu">Trabalhando com Listas</h1>
 
   <main>
+    <h1 id="titu">Trabalhando com Listas</h1>
+  <article id="ex">
     <h2>Listas Ordenadas</h2>
     <ol type="1"> <!-- 1, A, a, I & i -->
       <li>Acordar</li>
@@ -66,8 +66,8 @@
       <dt>JavaScript</dt>
       <dd>Linguagem de programação pra a criação de interatividade de um site.</dd>
     </dl>
+  </article>
   </main>
-  </div>
   
 </body>
 </html>
