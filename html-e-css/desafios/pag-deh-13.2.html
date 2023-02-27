@@ -8,16 +8,61 @@
     <title>Fazendo Desafios</title>
     <link rel="stylesheet" href="style/style-deh.css">
   <style>
-  table {
-    margin: auto;
+
+
+  article { text-align: center; background-color:#1e1e1e; }
+  article * { padding: 0em; } article > * { display: inline-block; }
+
+
+  div.an {
+    height: 30.25vw;
+    position: relative;
+    padding: auto 0em;
+    width: 15%;
   }
+  div.an > a {
+    border-radius: 0.05em;
+    color: #d09ad4;
+    background-color: #2f2f2f;
+    padding: 0.6em 0em;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 12.5vw;
+    width: 10vw;
+    transform: translate( -50%, -50% );
+  }
+  div.an > a:hover {
+  text-shadow: 0em 0em 0.2em #d09ad4;
+  background-color: #4b4b4b;
+  border: #d09ad4 solid 0.01em;
+  }
+  div.an a#no:hover {
+  background-color: #201020;
+  text-shadow: 0em 0em 0.2em #d09ad4;
+  }
+
+
+  div#tabela { width: 67.5%; }
+  table { width: 75%; margin: auto; }
+  td {
+    text-shadow: 0em 0em 0.25em #d09ad4;
+    color: #d09ad4;
+    font-size: 3.2vw;
+    border: 0.1em solid #d09ad4;
+    padding: 0.25em;
+    text-align: center;
+  }
+
+
   </style>
 </head>
 <body>
 
   <header id="mensup">
     <a href="../../../central/html-modulos.html">voltar</a>
-    <p>Desafio 13 do curso de HTML5 e CSS3</p>
+    <p>Desafio 13.2 do curso de HTML5 e CSS3</p>
   </header>
 
 
@@ -25,26 +70,43 @@
   <main>
     <h1 id="titu">Tabelas.</h1>
     <article>
+    <div class="an">
+      <a href="pag-deh-13.1.html">&lt;</a>
+    </div>
+
+
+    <div id="tabela">
     <table>
       <tr>
-        <td>1</td>
-        <td>2</td>
-        <td rowspan="2">3</td>
-        <td>4</td>
+        <td colspan="4">A</td>
+        <td rowspan="4">B</td>
       </tr>
       <tr>
-
+        <td rowspan="4">C</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
       </tr>
       <tr>
-
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
       </tr>
       <tr>
-
+        <td>J</td>
+        <td>L</td>
+        <td>M</td>
       </tr>
       <tr>
-
+        <td colspan="4">N</td>
       </tr>
     </table>
+    </div>
+
+
+    <div class="an">
+      <a href="#" id="no">&gt;</a>
+    </div>
     </article>
   </main>
 
