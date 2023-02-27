@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="conteudo/favicon.ico" type="image/x-icon">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style/pag-exh.css">
+  <style>
+  table {
+    border-collapse: collapse;
+    text-align: center; /* alinhamento horizontal */
+    vertical-align: middle; /* alinhamento vertical */
+  }
+  .numero { text-align: right; }
+  td {
+    border-collapse: collapse;
+    font-weight: bold;
+    padding: 0.5em;
+    border: 0.1em solid #000000;
+    width: 5em;
+    height: 5em;
+  }
+  </style>
+</head>
+<body>
+
+
+  <header id="mensup">
+    <a href="../../../central/html-modulos.html">voltar</a>
+    <p>Exercício 2.0.2 do módulo 3 do curso de HTML5 e CSS3</p>
+  </header>
+
+
+
+
+  <main>
+    <h1 id="titu">Minha Primeira Tabela.</h1>
+    <!--
+      Hierarquia de Tabelas (simples)
+      TABLE = tabela
+        TABLE ROW = linha de tabela
+          TABLE HEADER = cabeçalho de tabela
+          TABLE DATA = dado de tabela
+
+    -->
+    <article id="ex">
+    <table>
+      <tr> <!-- primeira linha -->
+        <td>A1</td>
+        <td>B1</td>
+        <td>C1</td>
+      </tr>
+      <tr> <!-- segunda linha -->
+        <td>A2</td>
+        <td>B2</td>
+        <td class="numero">C2</td>
+      </tr>
+      <tr> <!-- terçeira linha -->
+        <td>A3</td>
+        <td>B3</td>
+        <td class="numero">C3</td>
+      </tr>
+      <tr> <!-- quarta linha -->
+        <td>A4</td>
+        <td>B4</td>
+        <td>C4</td>
+      </tr>
+    </table>
+  </article>
+  </main>
+
+
+</body>
+</html>
