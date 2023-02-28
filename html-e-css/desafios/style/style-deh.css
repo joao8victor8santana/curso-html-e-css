@@ -18,10 +18,10 @@
 
 * { padding: 0em; margin: 0em; }
 body {
-  position: relative;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--cor3) url("../conteudo/madrugada-wallpaper.jpg") center center no-repeat fixed;
+  position: relative;
   height: 95vh;
 }
 
@@ -30,23 +30,22 @@ body {
 
 /* menu superior */
 header#mensup {
-  position: relative;
   background-image: linear-gradient(90deg, var(--cor1) 64%, var(--cor4) 100%);
   margin-bottom: 2em;
   box-shadow: 0em 0em 1em var(--cor4);
+  position: relative;
   height: 3.5em;
 }
 header#mensup a {
-  text-decoration: none;
-  position: absolute;
-  display: inline-block;
-  height: auto; 
   transition-duration: 0.5s;
   background-color: var(--cor3);
-  font-size: 1.5em;
-  display: inline-block;
-  padding: 0.40em 1.92em;
+  text-decoration: none;
   margin-left: 0.2em;
+  font-size: 1.5em;
+  position: absolute;
+  padding: 0.40em 1.92em;
+  display: inline-block;
+  height: auto; 
   color: var(--cor6);
 
   transform: translate( 0%, -50% );
